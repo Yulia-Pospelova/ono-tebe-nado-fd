@@ -20,7 +20,7 @@ body {
   margin: 0;
   background-color: #ffffff;
   color: #000000;
-  font-family: "Raleway";
+  font-family: 'Raleway';
 }
 
 .page {
@@ -137,7 +137,7 @@ body {
   padding: 12px 24px;
   cursor: pointer;
   text-transform: uppercase;
-  font-family: inherit;
+  font-family: 'Raleway', sans-serif;
   font-size: 22px;
 }
 

@@ -120,7 +120,6 @@ body {
   z-index: 2;
   display: flex;
   align-items: center;
-  gap: 78px;
   justify-content: space-between;
 }
 
@@ -129,6 +128,7 @@ body {
   color: #fff;
   text-transform: uppercase;
   font-size: 22px;
+  margin: 0;
 }
 
 .bet-button {
@@ -209,6 +209,10 @@ body {
   width: 100%;
 }
 
+.card__text {
+  margin: 0;
+}
+
 .card-link {
   display: block;
   width: 100%;
@@ -257,7 +261,6 @@ body {
   grid-template-columns: 240px 1fr;
   column-gap: 72px;
   padding: 155px 50px 181px;
-  align-items: start;
 }
 
 .about__column:first-child {
@@ -291,7 +294,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  margin: 100px 0 100px;
+  margin: 0 0 100px;
   line-height: 1;
 }
 

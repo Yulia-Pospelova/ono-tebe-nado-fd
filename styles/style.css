@@ -67,6 +67,8 @@ body {
   gap: 8px;
   font-style: normal;
   align-items: flex-start;
+  max-width: 200px;
+  text-align: left;
 }
 
 .address__text {
@@ -74,7 +76,8 @@ body {
 }
 
 .address__link {
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 4px;
   color: inherit;
 }
 

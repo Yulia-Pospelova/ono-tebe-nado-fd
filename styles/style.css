@@ -86,7 +86,7 @@ body {
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 508px;
+  min-height: 757px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -125,7 +125,7 @@ body {
 }
 
 .cover__description-text {
-  word-spacing: 15px;
+  letter-spacing: 0.1em;
   color: #fff;
   text-transform: uppercase;
   font-size: 22px;
@@ -256,7 +256,7 @@ body {
   display: grid;
   grid-template-columns: 240px 1fr;
   column-gap: 72px;
-  padding: 155px 50px 180px;
+  padding: 155px 50px 181px;
   align-items: start;
 }
 
